@@ -1,13 +1,12 @@
 # Evidence U-KAN for Trustworthy Medical Image Segmentation
-Link to the paper：[Paper address]()
 
 ## Project Description:
 
 Trustworthy medical image segmentation aims at deliver accurate and reliable results for clinical decision-making. Most existing methods adopt the evidence deep learning (EDL) paradigm due to its computational efficiency and theoretical robustness. However, the EDL-based methods often neglect leveraging uncertainty maps -rich in attention cues- to refine ambiguous boundary segmentation. To address this, we propose a Progressive Evidence Uncertainty guided Attention (PEUA) mechanism to guide the model to focus on the feature representation learning of hard samples. Unlike conventional approaches, PEUA iteratively refines attention using uncertainty maps while employing low-rank learning to denoise attention weights, enhancing feature learning for challenging regions. Concurrently, standard EDL methods suppress non-ground-truth evidence indiscriminately via KL regularization, distorting attention in ambiguous areas. We thus introduce a semantic-preserving evidence learning (SAEL) strategy, integrating a semantic-smooth evidence generator and a fidelity-enhancing regularization term to retain critical semantics. Finally, by embedding PEUA and SAEL with the state-of-the-art U-KAN, we proposes Evidence U-KAN, a novel solution for trustworthy medical image segmentation. Extensive experiments on 4 datasets demonstrate superior accuracy and reliability over the competing methods.
 
-![Display image of segmentation effect](https://github.com/xi-xiaoran/Evidence-U-KAN/blob/main/Plot/result.PNG)
-![SAEL](https://github.com/xi-xiaoran/Evidence-U-KAN/blob/main/Plot/SAEL.png)
 ![EUGA](https://github.com/xi-xiaoran/Evidence-U-KAN/blob/main/Plot/EUGA.png)
+![SAEL](https://github.com/xi-xiaoran/Evidence-U-KAN/blob/main/Plot/SAEL.png)
+![Display image of segmentation effect](https://github.com/xi-xiaoran/Evidence-U-KAN/blob/main/Plot/result.PNG)
 
 ## Installation:
 
