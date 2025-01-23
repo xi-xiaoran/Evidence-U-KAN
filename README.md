@@ -1,4 +1,4 @@
-# Evidence U-KAN for Trustworthy Medical Image Segmentation
+# Evidential U-KAN for Trustworthy Medical Image Segmentation
 
 ## Project Description:
 
